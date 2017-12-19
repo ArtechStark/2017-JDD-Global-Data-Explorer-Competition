@@ -48,3 +48,8 @@ python "feature-engineering/ip_feature/get_ip_login_feature.py" "data/test_trade
 python "feature-engineering/ip_feature/get_ip_result_feature.py" "data/test_trade_connect_login.csv" "data/test_ip_result_feature.csv"
 python "feature-engineering/ip_feature/get_ip_type_feature.py" "data/test_trade_connect_login.csv" "data/test_ip_type_feature.csv"
 python "feature-enginerring/dev_feature/merge_ip_test.py"
+
+#proprecess data
+python "script/get_train_test_data.py"
+
+#train and predict
