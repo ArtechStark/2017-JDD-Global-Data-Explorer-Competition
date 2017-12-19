@@ -1,4 +1,4 @@
-        # -*- coding: utf-8 -*
+# -*- coding: utf-8 -*
 import pandas as pd
 from xgboost.sklearn import XGBClassifier
 import xgboost as xgb
