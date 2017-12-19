@@ -54,4 +54,4 @@ python "script/get_train_test_data.py"
 
 #train and predict
 python "script/xgb_train.py"
-python "script/xgb_test.py"
+python "script/xgb_predict.py"
