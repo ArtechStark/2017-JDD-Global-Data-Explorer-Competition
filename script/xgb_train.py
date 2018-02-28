@@ -8,7 +8,6 @@ import cPickle as pickle
 tr = pd.read_csv("train_test_data/tr.csv")
 va = pd.read_csv("train_test_data/va.csv")
 
-target = 'is_risk'
 y = tr.is_risk
 X = tr.drop(['is_risk'], axis=1)
 val_y = va.is_risk
